@@ -5,9 +5,9 @@ public class controleFluxo {
 
     public static void main(String[] args){
 
-        //System.out.println("Mês:");
-        //mes();
-        System.out.println("Semana");
+        System.out.println("========== Mês ==========");
+        mes();
+        System.out.println("======== Semana =========");
         semana();
 
     }
@@ -79,25 +79,25 @@ public class controleFluxo {
 
         switch (i) {
             case "domingo":
-                System.out.println("1");
+                System.out.println("Domingo é o 1° dia da semana!");
                 break;
             case "segunda":
-                System.out.println("2");
+                System.out.println("Segunda é o 2° dia da semana!");
                 break;
             case "terça":
-                System.out.println("3");
+                System.out.println("Terça é o 3° dia da semana!");
                 break;
             case "quarta":
-                System.out.println("4");
+                System.out.println("Quarta é o 4° dia da semana!");
                 break;
             case "quinta":
-                System.out.println("5");
+                System.out.println("Quinta é o 5° dia da semana!");
                 break;
             case "sexta":
-                System.out.println("6");
+                System.out.println("Sexta é o 6° dia da semana!");
                 break;
             case "sábado":
-                System.out.println("7");
+                System.out.println("Sábado é o 7° dia da semana!");
                 break;
             default:
                 System.out.println("Tente novamente!");
